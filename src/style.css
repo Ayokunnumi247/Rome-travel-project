@@ -11,6 +11,13 @@ section {
   margin: 0 auto;
   padding: 100px;
 }
+section.secondary {
+  background-color: #181525;
+}
+.text-center {
+  text-align: center;
+}
+
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/image\ rome.png");
@@ -122,6 +129,53 @@ main p {
 main img {
   max-width: 100%;
   height: 350px;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+}
+
+main h5 {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.card {
+  background: #272435;
+  margin-top: 30px;
+}
+
+.grid-columns-card {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-body {
+  padding: 30px;
+}
+.card img {
+  max-width: 100%;
+  display: block;
+  height: 185px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  padding: 16px;
+  background: #462cb2;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-footer {
+  padding: 10px;
 }
 
 @media (max-width: 900px) {
